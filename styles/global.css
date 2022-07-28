@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    position: sticky;
+    position: static;
     top: 0;
     display: flex;
     align-items: center;
@@ -41,5 +41,29 @@ body {
 
 h3 {
     text-decoration: underline;
-    text-align: left;
+    
+}
+
+#water-img {
+    height: 300px;
+    width: 425px;
+}
+
+#city-img {
+    height: 300px;
+    width: 425px;
+}
+
+#mountain-img {
+    height: 300px;
+    width: 425px;
+}
+
+div {
+   display: flexbox; 
+
+}
+
+#slogans {
+    display: flex;
 }
