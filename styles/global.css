@@ -18,10 +18,11 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--header-background);
+    margin: 20px;
 }
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {
@@ -32,4 +33,8 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+body {
+    background-color: bisque;
 }
