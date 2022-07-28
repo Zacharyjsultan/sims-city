@@ -38,3 +38,8 @@ footer {
 body {
     background-color: bisque;
 }
+
+h3 {
+    text-decoration: underline;
+    text-align: left;
+}

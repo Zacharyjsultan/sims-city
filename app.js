@@ -9,14 +9,16 @@ const mountainImgTag = document.getElementById('mountain-img');
 
 const timesChangedEl = document.getElementById ('times-changed');
 const sloganButtonEl = document.getElementById ('slogan-button');
+const sloganInputEl = document.getElementById ('slogan-input');
 
+const slogansEl = document.getElementById('slogans');
 // let state
 
 let changeWater = 0;
 let changeCity = 0;
 let changeMountain = 0;
 
-// set event listeners 
+// set event listeners // update DOM to reflect the new state
 waterDropdownEl.addEventListener('change', () => {
 
     waterImgTag.src = `assets/${waterDropdownEl.value}.png`;
@@ -33,6 +35,8 @@ cityDropdownEl.addEventListener('change', () => {
 
     changeCity++;
 
+    displayStats();
+
 });
 mountainDropdownEl.addEventListener('change', () => {
 
@@ -40,9 +44,19 @@ mountainDropdownEl.addEventListener('change', () => {
 
     changeMountain++;
 
+    displayStats();
 });
+// use user input to update state 
+sloganButtonEl.addEventListener('click', () => {
 
-button
+    const newSlogan = sloganInputEl.value;
+    
+    displaySlogans();
+    
+    sloganInputEl.value = '';
+});
   // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+  
+  function displaySlogans
+
+  function displayStats
