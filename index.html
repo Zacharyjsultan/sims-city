@@ -17,15 +17,45 @@
 
 <body>
     <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <img src="/assets/sims-1.jpg">
+        <h1>Sims City</h1>
     </header>
 
     <main>
-
+        <section>
+            <select id="water-dropdown">
+                <option value="beach">Oregon Coast</option>
+                <option value="river">Mississippi River</option>
+                <option value="lake">Lake Cuomo</option>
+            </select>
+            <select id="city-dropdown">
+                <option value="ny">New York, NY</option>
+                <option value="falmouth">Falmouth, Maine</option>
+                <option value="tokyo">Tokyo, Japan</option>
+            </select>
+            <select id="mountain-dropdown">
+                <option value="oregon">Volcano</option>
+                <option value="colorado">Snowy Peaks</option>
+                <option value="arizona">Dry Mountains</option>
+            </select>
+        </section>
+        <section>
+            <p id="times-changed"></p>
+        </section>
+        <div>
+            <img id="water-img" />
+            <img id="city-img" />
+            <img id="mountain-img" />
+        </div>
+        <section>
+            <input id="slogan-input"/>
+            <button id="slogan-button">Add Slogan </button>
+            <h3>slogans:</h3>
+            <div id="slogans"></div>
+        </section>
     </main>
 
-    <footer>&copy;2022 Software Developer</footer>
+    <footer>&#9824;3049 Full-Stack Software Developer</footer>
 
     <script type="module" src="app.js"></script>
 </body>
